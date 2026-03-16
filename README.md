@@ -40,7 +40,7 @@ php artisan key:generate
 ```env
 DB_DATABASE=chipichapa_db
 DB_USERNAME=root
-DB_PASSWORD=your_password
+DB_PASSWORD=
 ```
 
 ### 6. Buat database di MySQL
@@ -155,8 +155,3 @@ routes/
 ### Middleware
 - User biasa coba akses halaman Admin → redirect ke katalog
 - Barang habis → pesan validasi stok habis
-
----
-
-**Deadline**: 6 April 2026, pukul 23.59 WIB  
-**Bonus** jika selesai sebelum 31 Maret 2026 pukul 23.59 WIB 🎯
